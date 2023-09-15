@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Blinker";
+}
+
+p {
+  @apply text-[#A9ABB3];
+}
+
+.btn {
+  @apply bg-white text-[#0E1217] border border-white opacity-100 py-2 px-4 rounded-2xl max-w-[100px] text-center cursor-pointer duration-300 hover:text-white hover:bg-[#0E1217]
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 12px;
+}
